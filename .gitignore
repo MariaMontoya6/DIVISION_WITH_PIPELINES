@@ -1,0 +1,76 @@
+# QUARTUS PRIME - Archivos principales
+
+*.qpf
+*.qsf
+*.qws
+*.qdf
+*.sopcinfo
+*.jdi
+
+# Archivos de programación
+*.sof
+*.pof
+*.rbf
+*.jic
+*.jam
+
+# Reportes y logs
+*.rpt
+*.smsg
+*.summary
+*.qws
+*.pin
+*.sld
+*.map
+*.fit
+*.asm
+*.done
+
+# DIRECTORIOS QUARTUS (IMPORTANTE)
+
+db/
+output_files/
+incremental_db/
+simulation/
+*.qsys_edit/
+
+
+# ICARUS VERILOG - Simulación
+# Ejecutables compilados
+*.vvp
+*.vpi
+*.exe
+
+# Archivos de onda y logs de simulación
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+*.vcd.gz
+
+# Logs del compilador
+compile.log
+simulate.log
+
+# Objetos y temporales de Icarus
+iverilog.cmd
+vsim.cmd
+
+# ARCHIVOS TEMPORALES UNIVERSALES
+
+*.bak
+*.tmp
+*~
+*.swp
+*.swo
+*.log
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+*.stackdump
+
+# Backups de editores
+*.bk
+*.backup
+
