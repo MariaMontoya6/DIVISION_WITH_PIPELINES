@@ -5,7 +5,7 @@ module division_no_pipe (
     input [7:0] A, // Dividendo 
     input [7:0] B, // Divisor 
     output reg valid,
-    output reg [15:0] P // primeros 8 bits seran residuo y los otros el cociente
+    output reg [15:0] P // primeros 8 bits seran cociente y los otros el residuo 
 );
     // Registros internos
     reg [7:0] A_reg, B_reg;
